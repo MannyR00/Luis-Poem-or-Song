@@ -8,9 +8,9 @@ header{
     text-align: center;
 }
 
-main{
-    text-align: left;
-    margin-right: 50%;
+#lyrics{
+    /* text-align: left; */
+   padding-right: 50%;
 }
 
 ul {
@@ -19,13 +19,23 @@ ul {
   margin: 0 auto;
 }
 
-figure{
-        
-      margin-left: 100%;
+figure{  
+     position: absolute;
+        right: 5%;
+        top: 30%;
+      
     }
     
     img{
 
-        width: 500px;
-        height: 400px;
+        width: 100%;
+          max-width: 900px;
+          border-radius: 10%;
+       
+    }
+
+    figcaption{
+          position: absolute;
+        right: 34%;
+        bottom: 102%;
     }
