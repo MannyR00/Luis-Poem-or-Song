@@ -1,4 +1,31 @@
 body{
 color:white;
-background-color:darkblue;
+background-color:#0066cc;
+
 }
+
+header{
+    text-align: center;
+}
+
+main{
+    text-align: left;
+    margin-right: 50%;
+}
+
+ul {
+  list-style-position: inside;
+  text-align: center;
+  margin: 0 auto;
+}
+
+figure{
+        
+      margin-left: 100%;
+    }
+    
+    img{
+
+        width: 500px;
+        height: 400px;
+    }
