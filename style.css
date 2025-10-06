@@ -21,8 +21,8 @@ ul {
 
 figure{  
      position: absolute;
-        right: 5%;
-        top: 30%;
+        right: 10%;
+        top: 55%;
       
     }
     
@@ -35,7 +35,13 @@ figure{
     }
 
     figcaption{
-          position: absolute;
+        position: absolute;
         right: 34%;
         bottom: 102%;
+    }
+
+    hr{
+      color:white;
+      height: 2px;
+      background-color: white;
     }
