@@ -39,7 +39,7 @@ ul {
 
 #band{
  width: 100%;
-          max-width: 750px;
+          max-width: 700px;
           border-radius: 10%;
           position: absolute;
         left: 5%;
@@ -72,9 +72,6 @@ ul {
       /* background-color: white; */
       background-image: url(seamless-background-with-blue-sky-white-cartoon-clouds-vector-illustration_515038-1945.jpg);
     }
-    
-    #album-div{
-      background-image: url(seamless-background-with-blue-sky-white-cartoon-clouds-vector-illustration_515038-1945.jpg);
-    }
+   
 
     
