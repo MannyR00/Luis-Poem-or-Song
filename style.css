@@ -4,8 +4,13 @@ background-color:#0066cc;
 
 }
 
+p, h3{
+  font-family:'Signika',Arial, sans-serif;
+}
+
 header{
     text-align: center;
+    font-family:'Bevan', Arial, sans-serif;
 }
 
 #lyrics{
@@ -22,7 +27,7 @@ ul {
 figure{  
      position: absolute;
         right: 10%;
-        top: 60%;
+        top: 50%;
       
     }
     
@@ -50,3 +55,5 @@ figure{
     #album-div{
       background-image: url(seamless-background-with-blue-sky-white-cartoon-clouds-vector-illustration_515038-1945.jpg);
     }
+
+    
