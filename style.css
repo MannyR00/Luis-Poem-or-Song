@@ -10,6 +10,7 @@ header{
 p, ul, h3, h4{
     font-family:'Signika',Arial, sans-serif;
     text-align: center;
+    /* flex-flow: column wrap; */
 }
 
 h1, h2{
@@ -59,7 +60,6 @@ ul {
     }
 
     figcaption{
-
       position: absolute;
       right: 11%;
       bottom:32%;
