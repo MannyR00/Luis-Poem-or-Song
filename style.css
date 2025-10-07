@@ -1,16 +1,16 @@
 body{
-color:white;
-background-color:#0066cc;
+    color:white;
+    background-color:#0066cc;
 }
 
 header{
-  text-align: center;
+    text-align: center;
 }
 
 p, ul, h3, h4{
-  font-family:'Signika',Arial, sans-serif;
-  /* Maybe I will center all the lyrics in the middle */
-  text-align: center;
+    font-family:'Signika',Arial, sans-serif;
+    
+    text-align: center;
 }
 
 h1, h2{
@@ -18,51 +18,52 @@ h1, h2{
     
 }
 h1{
-  font-size:60px;
+    font-size:60px;
 }
 h2{
-  font-size:40px;
+    font-size:40px;
 }
 
 
 
 #lyrics{
     text-align: left;
-   padding-left: 20px;
+    padding-left: 20px;
 }
 
 ul {
-  list-style-position: inside;
-  text-align: center;
-  margin: 0 auto;
+    list-style-position: inside;
+    text-align: center;
+    margin: 0 auto;
 }
 
 #band{
- width: 100%;
-          max-width: 700px;
-          border-radius: 10%;
-          position: absolute;
-        left: 5%;
-        top:75%;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10%;
+    position: absolute;
+    left: 5%;
+    top:75%;
 
 }
     
     #albumCover{
 
-        width: 100%;
-          max-width: 600px;
-          border-radius: 10%;
-          position: absolute;
-        right: 5%;
-        top:70%;
+      width: 100%;
+      max-width: 600px;
+      border-radius: 10%;
+      position: absolute;
+      right: 5%;
+      top:70%;
       
        
     }
 
     figcaption{
-        position: absolute;
-        right: 11%;
-        bottom:32%;
+
+      position: absolute;
+      right: 11%;
+      bottom:32%;
       
     }
 
