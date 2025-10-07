@@ -4,14 +4,18 @@ background-color:#0066cc;
 
 }
 
-p, h4{
-  font-family:'Signika',Arial, sans-serif;
-  
+header{
+  text-align: center;
 }
 
-header{
-    text-align: center;
-    font-family:'Bevan', Arial, sans-serif;
+p, ul, h3, h4{
+  font-family:'Signika',Arial, sans-serif;
+  /* Maybe I will center all the lyrics in the middle */
+  /* text-align: center; */
+}
+
+h1, h2{
+    font-family:'Oooh Baby', Arial, sans-serif;
 }
 
 #lyrics{
