@@ -1,7 +1,6 @@
 body{
 color:white;
 background-color:#0066cc;
-
 }
 
 header{
@@ -11,12 +10,21 @@ header{
 p, ul, h3, h4{
   font-family:'Signika',Arial, sans-serif;
   /* Maybe I will center all the lyrics in the middle */
-  /* text-align: center; */
+  text-align: center;
 }
 
 h1, h2{
     font-family:'Oooh Baby', Arial, sans-serif;
+    
 }
+h1{
+  font-size:60px;
+}
+h2{
+  font-size:40px;
+}
+
+
 
 #lyrics{
     text-align: left;
@@ -29,25 +37,33 @@ ul {
   margin: 0 auto;
 }
 
-figure{  
-     position: absolute;
-        right: 10%;
-        top: 50%;
-      
-    }
+#band{
+ width: 100%;
+          max-width: 750px;
+          border-radius: 10%;
+          position: absolute;
+        left: 5%;
+        top:75%;
+
+}
     
-    img{
+    #albumCover{
 
         width: 100%;
-          max-width: 900px;
+          max-width: 600px;
           border-radius: 10%;
+          position: absolute;
+        right: 5%;
+        top:70%;
+      
        
     }
 
     figcaption{
         position: absolute;
-        right: 34%;
-        bottom: 102%;
+        right: 11%;
+        bottom:32%;
+      
     }
 
     hr{
