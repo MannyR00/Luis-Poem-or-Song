@@ -19,12 +19,19 @@ p, ul, h3, h4{
 
 h1, h2{
     font-family:'Oooh Baby', Arial, sans-serif;
-     
+    text-align: center;
+    
 }
 h1{
     font-size:60px;
-     background-image: url(panorama-carpathian-rural-landscape-twilight-600nw-2185844427.jpg);
-     background-size: 100%;
+     background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+   background-image: url(1000_F_378292112_Ga2dh99x8PbWaM4zAYvPYH5cHGO59vrF.jpg);
+   height: 200px;
+   line-height: 200px;
+
+     
 }
 
 h2{
