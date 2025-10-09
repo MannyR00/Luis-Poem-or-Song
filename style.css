@@ -5,30 +5,33 @@ body{
 
 header{
     text-align: center;
+    
 }
+
+   
 
 p, ul, h3, h4{
     font-family:'Signika',Arial, sans-serif;
     text-align: center;
     /* flex-flow: column wrap; */
+   
 }
 
 h1, h2{
     font-family:'Oooh Baby', Arial, sans-serif;
-    
+     
 }
 h1{
     font-size:60px;
+     background-image: url(panorama-carpathian-rural-landscape-twilight-600nw-2185844427.jpg);
+     background-size: 100%;
 }
 
 h2{
     font-size:40px;
 }
 
-#lyrics{
-    text-align: left;
-    padding-left: 20px;
-}
+
 
 ul {
     list-style-position: inside;
@@ -74,5 +77,8 @@ ul {
     text-align: left;
     
    }
+
+   
+   
 
     
