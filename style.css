@@ -1,90 +1,123 @@
-body{
-    color:white;
-    background-color:#0066cc;
-}
 
-header{
-    text-align: center;
-    
+body {
+  color: white;
+  background-color: #0066cc;
 }
-
-   
-
-p, ul, h3, h4{
-    font-family:'Signika',Arial, sans-serif;
-    text-align: center;
-   
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
-h1, h2{
-    font-family:'Oooh Baby', Arial, sans-serif;
-    text-align: center;
-    
-}
-h1{
-    font-size:60px;
-     background-repeat: no-repeat;
+.title {
+  text-align: center;
+  padding: 1rem;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-   background-image: url(1000_F_378292112_Ga2dh99x8PbWaM4zAYvPYH5cHGO59vrF.jpg);
-   height: 200px;
-   line-height: 200px;
-
-     
+  background-image: url(1000_F_378292112_Ga2dh99x8PbWaM4zAYvPYH5cHGO59vrF.jpg);
+}
+.info {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.info > ul {
+  margin: 0 auto;
+  padding: 0;
+}
+.info ul {
+  list-style-position: inside;
 }
 
-h2{
-    font-size:40px;
+p,
+h3,
+h4 {
+  font-family: "Signika", Arial, sans-serif;
+  text-align: center;
 }
 
-
-
-ul {
-    list-style-position: inside;
-    text-align: center;
-    margin: 0 auto;
+h1,
+h2 {
+  font-family: "Oooh Baby", Arial, sans-serif;
+  text-align: center;
+}
+h1 {
+  /* font-size: 60px; */
+  font-size: 4rem;
 }
 
-#band{
-    width: 100%;
-    max-width: 700px;
-    border-radius: 10%;
-    position: absolute;
-    left: 4%;
-    top:85%;
-
+h2 {
+  /* font-size: 40px; */
+  font-size: 2.5rem;
 }
-    
-    #albumCover{
 
-      width: 100%;
-      max-width: 600px;
-      border-radius: 10%;
-      position: absolute;
-      right: 5%;
-      top:80%;
-      
-    }
+.figures {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; 
+}
+figure {
+  width: 100%;
+}
+figure img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.figure-1 figcaption {
+  text-align: center;
+}
 
-    figcaption{
-      position: absolute;
-      right: 13%;
-      bottom:21%;
-      font-family:'Signika',Arial, sans-serif;
-    }
-
-    hr{
-      color:white;
-      height: 10px;
-      background-image: url(seamless-background-with-blue-sky-white-cartoon-clouds-vector-illustration_515038-1945.jpg);
-
-    }
-   footer p{
-    text-align: left;
-    
-   }
-
+hr {
+  color: white;
+  height: 10px;
+  background-image: url(seamless-background-with-blue-sky-white-cartoon-clouds-vector-illustration_515038-1945.jpg);
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+footer ul {
+  list-style-type: none;
+  text-align: center;
+  line-height: 2rem;
+}
+footer a {
+  color: white;
+  ::visited {
+    color: white;
+  }
+}
+/*
+move the figures to the left for larger screens
+*/
+@media (min-width: 992px) {
+  .figures {
+    order: 1;
    
-   
 
-    
+  }
+  .lyrics {
+    order: 2;
+  }
+}
+/*
+hide the last figure for large screens
+*/
+@media (min-width: 1200px) {
+  .figure-5 {
+    display: none;
+  }
+}
+/*
+hide the last 2 figure for extra large screens
+*/
+@media (min-width: 1400px) {
+  .figure-4,
+  .figure-5 {
+    display: none;
+  }
+}
